@@ -37,7 +37,7 @@ Here are some quick command examples you can copy and use:
 
 ```bash
 # Scan a standard domain website
-nano-v5 -t google.com
+go run main.go -t google.com
 
 # Scan specific ports on a target
 nano-v5 -t 192.168.1.1 -p 22,80,443
