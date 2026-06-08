@@ -29,9 +29,6 @@ go get golang.org/x/net/icmp
 
 # Run the scanner
 go run main.go -t 127.0.0.1
-# transform Go code into ready-to-use applications
-go build -o nanov5-scanner main.go
-
 
 ## 📖 Usage Examples
 
