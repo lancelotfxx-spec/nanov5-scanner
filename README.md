@@ -26,6 +26,7 @@ cd nanov5-scanner
 
 # Download dependencies
 go get golang.org/x/net/icmp
+```
 
 # Run the scanner
 go run main.go -t 127.0.0.1
