@@ -44,4 +44,7 @@ nano-v5 -t 192.168.1.1 -p 22,80,443
 
 # Scan a full network CIDR range with 100 threads
 sudo nano-v5 -t 192.168.1.0/24 -c 100
+
+# how to see all commands
+go run main.go -t google.com
 ```
